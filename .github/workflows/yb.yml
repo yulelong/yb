@@ -182,7 +182,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(yt-dlp -g  https://www.youtube.com/watch?v=Af0TFVbxvAQ)
         EOL     
-    - name: Get tvbsnews.m3u8
+    - name: Get tvbsnewslive.m3u8
       run: |
         touch ./tvbsnewslive.m3u8
         sudo cat >./tvbsnewslive.m3u8 <<EOL
@@ -198,7 +198,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(yt-dlp -g https://www.youtube.com/watch?v=86YLFOog4GM)
+        $(yt-dlp -g https://www.youtube.com/watch?v=_HGQZlK08gQ)
         EOL
 
     - name: Get nhkworld.m3u8
